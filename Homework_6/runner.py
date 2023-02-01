@@ -7,7 +7,7 @@ import sys
 from hardware_store_parser.spiders.castorama_ru import CastoramaRuSpider
 
 if __name__ == '__main__':
-    search = "котел"
+    search = "РєРѕС‚РµР»"
     if len(sys.argv) != 1:
         search = ' '.join(sys.argv[1:])
 
